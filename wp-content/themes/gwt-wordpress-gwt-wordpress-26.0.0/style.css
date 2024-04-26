@@ -1,0 +1,178 @@
+/*
+ * Theme Name:		GWT-Wordpress 26.0.0 - Latest
+ * Theme URI:		https://i.gov.ph
+ * Description:		Custom WordPress theme based on the draft Unified Web Content Policy 
+ *					prepared by the PCDSPO, DOST-ASTI, and DOST-ICTO. Theme is built on 
+ *					HTML5 responsive WordPress framework based on ZURB's Foundation.
+ *                  Updated by NGP and GOSD-GWHS
+ * Version:			26.0.0
+ * Author:			iGovPhil
+ * Author URI:		https://i.gov.ph
+ * License:			MIT License
+ * License URI:		https://www.opensource.org/licenses/mit-license.php
+ * Tags: 			theme-options, rtl-language-support, featured-images, editor-style, custom-menu, 
+ *					responsive-layout, right-sidebar, left-sidebar, one-column, two-columns, three-columns
+ */
+
+/** Your style here **/
+#agency-name{
+    line-height: 1;
+    font-size: 3rem !important;
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+}
+.news_pagination .prev.page-numbers, .news_pagination .next.page-numbers, .page-numbers.current {
+	background-color: #142745!important;
+	color: #fff!important;
+}
+.news_pagination a{
+	background-color: #fff!important;
+	color: #000!important;
+}
+.news-title a{
+	color: #142745!important;
+}
+.tablepress.quicklinks a{
+	color: #142745!important;
+}
+#panel-top{
+	background-image: url('http://localhost/dostregion1/wp-content/uploads/2024/04/19366-scaled-e1712821835845.jpg')!important;
+}
+.container-banner{
+	display: none!important;
+	background-repeat: no-repeat!important;
+}
+.callout{
+	border: none!important;
+	padding: 0rem 1rem 1rem 1rem!important;
+}
+figure{
+	margin: 0!important;
+}
+.orbit-button-controls{
+	display: none!important;
+}
+.callout.secondary{
+	background: none!important;
+}
+table{
+	border: 1px solid #000000!important;
+}
+.sidelinks td{
+	border-bottom: 1px solid #ddd!important;
+}
+.sidelinks tr:nth-child(even){
+	background-color: #ffffff!important;
+}
+.time-title{
+	font-weight:900;
+	font-size: .7rem!important;
+	color: #fff;
+}
+.time, .time::before{
+	margin: 0!important;
+}
+.time tbody{
+	border:1px solid #142745;
+}
+.time .row-1{
+	background-color: #142745;
+}
+.time .row-2 td{
+		vertical-align:top!important;
+}
+.time br, .social-media br, .key-officials br{
+	display:none!important;
+}
+.time .row-2 td, .social-media .row-1 td{
+	padding: 0!important;
+	background-color: #fff!important;
+}
+.time .row-3 td, .social-media .row-1 td{
+	padding: 0!important;
+	border: none!important;
+}
+.social-media tbody, .social-media tfoot, .social-media thead{
+	border:1px solid #ffff;
+}
+.textwidget{
+	background-color: #142745;
+	color: #fff;
+	font-weight:900;
+	font-size: 1rem!important;
+} 
+a.table-text{
+	font-weight:600!important;
+	font-size: 1rem!important;
+}
+.widget.widget_text{
+	margin-bottom: 0px!important;
+}
+#pg-w660ca2452122b-0.panel-grid.panel-no-style{
+	margin-bottom: 0px!important;
+}
+.panel-grid.panel-no-style{
+	justify-content:flex-start!important;
+}
+#pg-w660ca630146e1-0, #pl-w660ca630146e1 .so-panel{
+	margin-bottom:0px!important;
+}
+.panel-grid.panel-has-style>.panel-row-style, .panel-grid.panel-no-style{
+	margin:5px!important;
+}
+img.logo{
+	display: block!important;
+	margin: 0 auto!important;
+}
+.aligncenter{
+	margin: 0 auto;
+	display: flex;
+}
+.todaysOutlook{
+	color: #1b90de!important;
+}
+.tablepress.key-officials{
+	--padding:0px!important;
+}
+.tablepress.Annual-Reports>:not(caption)>*>*{
+	vertical-align: middle!important;
+}
+.contact-us{
+	font-size:1rem;
+	font-weight:700;
+}
+.sp-easy-accordion .ea-card .ea-header a{
+	font-size: .9rem!important;
+	padding: 5px 15px 5px!important;
+	text-align: left!important;
+}
+.sp-easy-accordion .ea-card .ea-body {
+	font-size: .8rem!important;
+}
+.news-col-3{
+	width: 100%!important;
+}
+.grid-news-thumb img{
+	object-position: center!important;
+}
+.news-more-link{
+	background-color: #142745;
+	color: #fff;
+}
+.entry-title[value='Home']{
+	display:none!important;
+}
+.pst-time a{
+	font-size:1.5rem!important;
+	font-weight:800;
+	vertical-align: top!important;
+}
+.pst-date a{
+	font-size:.8rem!important;
+	font-weight:500;
+	vertical-align: top!important;
+}
+.time>:not(caption)>*>* {
+	text-align: center!important;
+}
